@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Exo01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo09" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exo15" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

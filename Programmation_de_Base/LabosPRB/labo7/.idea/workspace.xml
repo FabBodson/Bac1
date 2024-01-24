@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8fc4d61-1ecc-45b2-a24d-49d2ae470292" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Uv1oKQfkkRD7YJNH6y03uMFAWd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_matrice2d.ConvertirEnTexteTest.test_matrice_1_element">
+    <configuration name="Matrices" type="PythonConfigurationType" factoryName="Python">
+      <module name="labo7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dessin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labo7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dessin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="formes_geometriques" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labo7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/formes_geometriques.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matrice2d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labo7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matrice2d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_matrice2d.Additionner.test_addition_matrices_positifs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="labo7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_matrice2d.Additionner.test_addition_matrices_positifs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_matrice2d.ConvertirEnTexteTest.test_matrice_1_element" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="labo7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_matrice2d.ConvertirEnTexteTest.test_matrice_1_element&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Matrices" />
+      <item itemvalue="Python.dessin" />
+      <item itemvalue="Python.formes_geometriques" />
+      <item itemvalue="Python.matrice2d" />
+      <item itemvalue="Python tests.Unittests for test_matrice2d.Additionner.test_addition_matrices_positifs" />
+      <item itemvalue="Python tests.Unittests for test_matrice2d.ConvertirEnTexteTest.test_matrice_1_element" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_matrice2d.ConvertirEnTexteTest.test_matrice_1_element" />
+        <item itemvalue="Python.dessin" />
+        <item itemvalue="Python.formes_geometriques" />
+        <item itemvalue="Python tests.Unittests for test_matrice2d.Additionner.test_addition_matrices_positifs" />
+        <item itemvalue="Python.matrice2d" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8fc4d61-1ecc-45b2-a24d-49d2ae470292" name="Default Changelist" comment="" />
+      <created>1576222428251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576222428251</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576247776907">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576247776907" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576858112857">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1576857705115" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.816@0.23.1440.816" timestamp="1576858112857" />
+    <state width="1419" height="158" key="GridCell.Tab.0.bottom" timestamp="1578511574508">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="158" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578511574508" />
+    <state width="1419" height="158" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1577725886788" />
+    <state width="1419" height="100" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1576859492449" />
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1577614970197" />
+    <state width="1419" height="158" key="GridCell.Tab.0.center" timestamp="1578511574507">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="158" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578511574507" />
+    <state width="1419" height="158" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1577725886787" />
+    <state width="1419" height="100" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1576859492448" />
+    <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1577614970196" />
+    <state width="1419" height="158" key="GridCell.Tab.0.left" timestamp="1578511574506">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="158" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578511574506" />
+    <state width="1419" height="158" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1577725886786" />
+    <state width="1419" height="100" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1576859492448" />
+    <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1577614970195" />
+    <state width="1419" height="158" key="GridCell.Tab.0.right" timestamp="1578511574507">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="158" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578511574507" />
+    <state width="1419" height="158" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1577725886787" />
+    <state width="1419" height="100" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1576859492448" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1577614970197" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1576849502128">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576849502128" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1576849502127">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576849502127" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1576849502127">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576849502127" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1576849502128">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576849502128" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576858827196">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1576858827196" />
+  </component>
+</project>

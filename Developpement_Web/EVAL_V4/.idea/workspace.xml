@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8031d53-1976-49d4-aeb2-8ecd09057c8a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1V9LwIs3JsZnOvi8VGLqcgg34M4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8031d53-1976-49d4-aeb2-8ecd09057c8a" name="Default Changelist" comment="" />
+      <created>1576660600828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576660600828</updated>
+      <workItem from="1576660603986" duration="246000" />
+      <workItem from="1576660873988" duration="2000" />
+      <workItem from="1576672619586" duration="4703000" />
+      <workItem from="1576701058706" duration="1620000" />
+      <workItem from="1576836701073" duration="2487000" />
+      <workItem from="1576922859978" duration="129000" />
+      <workItem from="1576923217393" duration="243000" />
+      <workItem from="1579117896244" duration="553000" />
+      <workItem from="1581004443280" duration="806000" />
+      <workItem from="1583233817112" duration="1132000" />
+      <workItem from="1584295531524" duration="43000" />
+      <workItem from="1584295581604" duration="60000" />
+      <workItem from="1584295687060" duration="4117000" />
+      <workItem from="1584444093574" duration="4232000" />
+      <workItem from="1585057425217" duration="34000" />
+      <workItem from="1585388772757" duration="621000" />
+      <workItem from="1585404811437" duration="376000" />
+      <workItem from="1585473580254" duration="12939000" />
+      <workItem from="1585656862554" duration="2329000" />
+      <workItem from="1585828490197" duration="1636000" />
+      <workItem from="1585832249115" duration="7225000" />
+      <workItem from="1585845456925" duration="724000" />
+      <workItem from="1585900182501" duration="2372000" />
+      <workItem from="1586025651857" duration="2219000" />
+      <workItem from="1586077932292" duration="14861000" />
+      <workItem from="1586110667100" duration="251000" />
+      <workItem from="1586116344064" duration="69000" />
+      <workItem from="1586179376004" duration="5097000" />
+      <workItem from="1586199932039" duration="5419000" />
+      <workItem from="1586264947109" duration="7806000" />
+      <workItem from="1586334680153" duration="20500000" />
+      <workItem from="1586422264647" duration="23543000" />
+      <workItem from="1586506523357" duration="19158000" />
+      <workItem from="1586546911029" duration="149000" />
+      <workItem from="1586589966321" duration="30579000" />
+      <workItem from="1586673235935" duration="28582000" />
+      <workItem from="1586719985643" duration="700000" />
+      <workItem from="1587811501770" duration="15804000" />
+      <workItem from="1587897759260" duration="15551000" />
+      <workItem from="1587974050115" duration="21242000" />
+      <workItem from="1588059254245" duration="9677000" />
+      <workItem from="1588161981020" duration="7520000" />
+      <workItem from="1588250093795" duration="7142000" />
+      <workItem from="1588319111757" duration="11175000" />
+      <workItem from="1588526387869" duration="1665000" />
+      <workItem from="1588675998556" duration="1149000" />
+      <workItem from="1588687254361" duration="374000" />
+      <workItem from="1589033218971" duration="4748000" />
+      <workItem from="1589099826431" duration="4048000" />
+      <workItem from="1590442400085" duration="186000" />
+      <workItem from="1590668774387" duration="623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="308" y="112" key="#CLI_Interpreters" timestamp="1581005730826">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="112" key="#CLI_Interpreters/0.0.1440.900@0.0.1440.900" timestamp="1581005730826" />
+    <state x="385" y="23" width="670" height="812" key="#PHP" timestamp="1581005735588">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="23" width="670" height="812" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1581005735588" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586628916547">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586628916547" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587979698077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587979698077" />
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586423180069">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1586423180069" />
+    <state width="239" height="539" key="HiddenNamespacesPopup" timestamp="1586096511637">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="239" height="539" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1586096511637" />
+    <state x="538" y="376" key="NewPhpFileDialog" timestamp="1585832750502">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="538" y="376" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1585832750502" />
+    <state x="234" y="29" key="SettingsEditor" timestamp="1581004894434">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="234" y="29" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581004894434" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586437256078">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1586437256078" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1586335931967">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1586335931967" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586440005744">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586440005744" />
+  </component>
+</project>

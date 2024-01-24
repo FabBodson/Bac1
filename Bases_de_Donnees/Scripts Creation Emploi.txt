@@ -1,0 +1,183 @@
+drop table Necessiter;
+drop table Donner;
+drop table Requerir;
+drop table Echanger;
+drop table Parler;
+drop table Postuler;
+drop table Conduire;
+drop table Posseder;
+drop table Job;
+drop table Candidat;
+drop table Etablissement;
+drop table Categorie;
+drop table TrancheSalariale;
+drop table TypeContrat;
+drop table Avantage;
+drop table Horaire;
+drop table Entreprise;
+drop table PermisConduire;
+drop table Qualification;
+drop table Langue;
+drop table Nationalite;
+drop table EtatCivil;
+
+
+create table EtatCivil(
+		id_EtatCivil integer PRIMARY KEY, 
+		EtCi_Libelle varchar(256) not null);
+		
+create table Nationalite(
+		id_Nationalite integer PRIMARY KEY, 
+		Nat_Libelle varchar(256) not null);
+		
+create table Langue(
+		id_Langue integer PRIMARY KEY,
+		La_Libelle varchar(16) not null,
+		Code varchar(3));
+
+create table Qualification(
+		id_Qualification integer PRIMARY KEY,
+		Qu_Libelle varchar(256) not null);
+		
+create table PermisConduire(
+		id_Permis integer PRIMARY KEY,
+		Pe_Libelle varchar(2) not null,
+		Categorie varchar(26) not null);
+		
+create table Entreprise(
+		id_Entreprise integer PRIMARY KEY,
+		Ent_Nom varchar(256) not null);
+		
+create table Horaire(
+		id_Horaire integer PRIMARY KEY,
+		Ho_Libelle varchar(256) not null);
+		
+create table Avantage(
+		id_Avantage integer PRIMARY KEY,
+		Av_Libelle varchar(256) not null);
+		
+create table TypeContrat(
+		id_TypeContrat integer PRIMARY KEY,
+		Ty_Libelle varchar(256) not null,
+		Ty_Code varchar(12));
+		
+create table TrancheSalariale(
+		id_TrancheSalariale integer PRIMARY KEY,
+		Tr_Libelle varchar(256) not null);
+		
+create table Categorie(
+		id_Categorie integer PRIMARY KEY,
+		Cat_Libelle varchar(256) not null);
+		
+Create table Etablissement(
+		id_Etablissement integer PRIMARY KEY, 
+		Et_Nom varchar(256) not null, 
+		Et_Rue varchar(256) not null, 
+		Et_Numero integer not null, 
+		Et_Localite varchar(256) not null, 
+		Et_CodePostal integer not null);
+		
+create table Candidat(
+		id_candidat integer PRIMARY KEY, 
+		Ca_Nom varchar(256) not null, 
+		Prenom varchar(256), 
+		Ca_Rue varchar(256), 
+		Ca_Numero integer, 
+		Ca_Localite varchar(256),
+		Ca_CodePostal integer,		
+		Tel varchar(13), 
+		Email varchar(256), 
+		DateNaissance Date not null, 
+		id_Nationalite NOT NULL, 
+		id_EC NOT NULL, 
+		FOREIGN KEY(id_Nationalite) REFERENCES Nationalite(id_Nationalite), 
+		FOREIGN KEY(id_EC) REFERENCES EtatCivil(id_EtatCivil));
+
+
+
+create table Job(
+		id_Job integer PRIMARY KEY,
+		Titre varchar(256) not null,
+		Description varchar(1024),
+		Publie Date not null,
+		id_Entreprise integer not null,
+		id_Horaire integer not null,
+		id_TrancheSalariale integer,
+		id_Categorie integer not null,
+		id_TypeContrat integer not null,
+		FOREIGN KEY(id_Entreprise) REFERENCES Entreprise(id_Entreprise),
+		FOREIGN KEY(id_Horaire) REFERENCES Horaire(id_Horaire),
+		FOREIGN KEY (id_TrancheSalariale) REFERENCES TrancheSalariale(id_TrancheSalariale),
+		FOREIGN KEY (id_Categorie) REFERENCES Categorie(id_Categorie),
+		FOREIGN KEY(id_TypeContrat) REFERENCES TypeContrat(id_TypeContrat));
+		
+
+		
+create table Posseder(
+		id_Candidat integer,
+		id_Etablissement integer,
+		id_Qualification integer,
+		DateDiplome Date Not NULL,
+		PRIMARY KEY(id_Candidat, id_Etablissement, id_Qualification),
+		FOREIGN KEY(id_Candidat) REFERENCES Candidat(id_Candidat),
+		FOREIGN KEY(id_Etablissement) REFERENCES Etablissement(id_Etablissement),
+		FOREIGN KEY(id_Qualification) REFERENCES Qualification(id_Qualification));
+
+create table Conduire(
+		id_Candidat integer,
+		id_Permis integer,
+		DateObtention Date not null,
+		PRIMARY KEY(id_Candidat, id_Permis),
+		FOREIGN KEY(id_Candidat) REFERENCES Candidat(id_Candidat),
+		FOREIGN KEY(id_Permis) REFERENCES PermisConduire(id_Permis));
+
+create Table Postuler(
+		id_Candidat integer,
+		id_Job integer,
+		DatePostule Date not null,
+		PRIMARY KEY(id_Candidat, id_Job),
+		FOREIGN KEY(id_Candidat) REFERENCES Candidat(id_Candidat),
+		FOREIGN KEY(id_Job) REFERENCES Job(id_Job));
+		
+create table Parler(
+		id_Candidat integer not null,
+		id_Langue integer,
+		Niveau char(1) not null,
+		PRIMARY KEY(id_Candidat, id_Langue),
+		FOREIGN KEY(id_Candidat) REFERENCES Candidat(id_Candidat),
+		FOREIGN KEY(id_Langue) REFERENCES Langue(id_Langue));
+
+create table Echanger(
+		id_Langue integer,
+		id_Job integer,
+		PRIMARY KEY( id_Langue, id_Job),
+		FOREIGN KEY(id_Langue) REFERENCES Langue(id_Langue),
+		FOREIGN KEY(id_Job) REFERENCES Job(id_Job));
+
+create table Requerir(
+		id_Permis integer,
+		id_Job integer,
+		PRIMARY KEY(id_Permis, id_Job),
+		FOREIGN KEY(id_Permis) REFERENCES PermisConduire(id_Permis),
+		FOREIGN KEY(id_Job) REFERENCES Job(id_Job));
+
+
+create table Donner(
+		id_Job integer,
+		id_Avantage integer,
+		PRIMARY KEY(id_Job, id_Avantage),
+		FOREIGN KEY(id_Job) REFERENCES Job(id_Job),
+		FOREIGN KEY(id_Avantage) REFERENCES Avantage(id_Avantage));
+
+create table Necessiter(
+		id_Job integer,
+		id_Qualification integer,
+		PRIMARY KEY(id_Job, id_Qualification),
+		FOREIGN KEY(id_Job) REFERENCES Job(id_Job),
+		FOREIGN KEY(id_Qualification) REFERENCES Qualification(id_Qualification));
+		
+Commit;
+
+
+		
+		

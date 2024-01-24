@@ -1,0 +1,23 @@
+id_candidat;Ca_Nom;Prenom;Ca_Rue;Ca_Numero;Ca_Localite;Ca_CodePostal;Tel;Email;DateNaissance;id_Nationalite;id_EC
+1;Martin;Jean;rue Margensault;48;Thimister;4890;;j.martin@gmail.com;01/05/1979;7;1
+2;Bernard;Marie;rue Vivegnis;5;Liège;4000;;m.bernard@hotmail.com;10/03/1968;12;2
+3;Thomas;Pierre;rue du Pommier;25;Liège;4000;;pierre.thomas@pthomas.com;15/08/1995;17;1
+4;Petit;Jeanne;rue Féronstrée;245;Liège;4000;;j.petit@gmail.com;29/10/1990;7;2
+5;Robert;Michel;rue Gustave Taillard;12;Herve;4650;;r.michel@hotmail.com;03/07/1988;1;2
+6;Richard;Françoise;rue Leclercq;159;Herve;4650;;francoise.rich@gmail.com;27/11/1965;17;3
+7;Robert;André;rue Denis;36;Herve;4650;;dede@arnaque.com;18/12/1993;7;1
+8;Bernard;Monique;rue des Berlaines;147;Battice;4651;;mo.bernard@gmail.com;15/06/1989;7;3
+9;Bernard;Philippe;rue d'Aubel;52;Battice;4651;;p.bernard@hotmail.com;17/03/1974;34;3
+10;Durand;Catherine;Clos du Mayeur;89;Battice;4651;;cat_ber@beber.be;25/09/1985;48;4
+11;Dubois;René;Allée du Luxembourg;65;Visé;4200;;r.dubos@skynet.com;23/09/1993;17;1
+12;Leroy;Nathalie;rue de la Wade;34;Visé;4200;;nat@pinklady.be;24/07/1986;7;4
+13;Leroy;Louis;Allée des Muguets;2;Visé;4200;;lolo.leroy@gmail.com;30/12/1996;17;4
+14;Morel;Isabelle;Boulevard du Nord;96;Namur;5000;;i.rousseau@hotmail.com;23/01/1987;7;2
+15;Rousseau;Alain;Route Merveilleuse;78;Namur;5000;;;31/01/1976;27;1
+16;Faure;Jacqueline;rue Champêtre;879;Namur;5000;;;19/04/1983;27;1
+17;Guerin;Jacques;rue Chavanes;4;Charleroi;6000;;J.guerin.gmail.com;07/07/1977;7;2
+18;Chevalier;Anne;rue de la Régence;236;Charleroi;6000;;;14/06/1978;7;2
+19;Garcia;Bernard;rue Paul Janson;87;Charleroi;6000;;b.garcia@mapetiteentreprise.biz;08/10/1992;31;2
+20;Perrin;Sylvie;rue en Rhée;18;Dinant;5500;;;16/05/1991;34;2
+21;Robin;Marcel;Square Brigade Piron;23;Dinant;5500;;m.robin@hotmail.com;25/06/1983;7;3
+22;Roussel;Martine;Chemin de la Citadelle;9;Dinant;5500;;m.roussel@senat.eu;09/11/1990;7;4

@@ -1,0 +1,11 @@
+id_Etablissement;Et_Nom;Et_Rue;Et_Numero;Et_Localite;Et_CodePostal
+1;Université Libre de Buxelles;avenue Franklin Roosevelt;50;Bruxelles;1050
+2;Université Saint-Louis;Boulevard du Jardin Botanique;43;Bruxelles;1000
+3;Université catholique de Louvain ;Place de l'Université;1;Louvain-la-Neuve;1348
+4;Haute Ecole Leonard de Vinci;Place de l'Alma;2;Bruxelles;1200
+5;Université de Liège;Place du 20 Août;1;Liège;4000
+6;Université de Mons ;Place du Parc;20;Mons;7000
+7;Université de Namur ;Rue de Bruxelles;61;Namur;5000
+8;Haute Ecole Charlemagne;Rue des Rivageois;6;Liège;4000
+9;Haute Ecole Libre Mosane;Rue du Mont Saint Martin;41;Liège;4000
+10;Haute École de Namur-Liège-Luxembourg;Rue Saint-Donat;130;namur;5002

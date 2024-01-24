@@ -1,0 +1,40 @@
+ADMINS:
+1.
+Login: 			    fabbodson
+Mot de passe : 		collector
+
+2.
+Login: 			    Rambo
+Mot de passe : 		Test
+
+
+
+PORTEURS DE PROJETS:
+1.
+Login: 			    fabbodson
+Mot de passe : 		collector
+
+2.
+Login: 			    Rambo
+Mot de passe : 		Test
+
+3.
+Login: 			    Pinocchio
+Mot de passe : 		bois
+
+
+
+MEMBRES:
+1.
+Login: 			    CaptainHaddock
+Mot de passe : 		Capitaine
+
+2.
+Login: 			    John Doe
+Mot de passe : 		JD
+
+3.
+Login: 			    CR7
+Mot de passe : 		CR7
+
+

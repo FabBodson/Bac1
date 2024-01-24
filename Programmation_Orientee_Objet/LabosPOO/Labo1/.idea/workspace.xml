@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5981cf06-9c00-45d1-9741-07df3b31df34" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XNYXbORK9L9WxEJ3DN4o9Df67F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for exo07tests.FindChildrenTests.test_find_children">
+    <configuration name="Unittests for exo04tests.IsStrongTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Labo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exo04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exo04tests.IsStrongTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for exo04tests.IsStrongTests.test_is_strong_7" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Labo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exo04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exo04tests.IsStrongTests.test_is_strong_7&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for exo05tests.BalancedNumTests.test_balanced_num_959" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Labo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exo05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exo05tests.BalancedNumTests.test_balanced_num_959&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for exo06tests.CountRabbitsTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Labo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exo06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exo06tests.CountRabbitsTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for exo07tests.FindChildrenTests.test_find_children" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Labo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exo07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exo07tests.FindChildrenTests.test_find_children&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for exo07tests.FindChildrenTests.test_find_children" />
+        <item itemvalue="Python tests.Unittests for exo06tests.CountRabbitsTests" />
+        <item itemvalue="Python tests.Unittests for exo05tests.BalancedNumTests.test_balanced_num_959" />
+        <item itemvalue="Python tests.Unittests for exo04tests.IsStrongTests.test_is_strong_7" />
+        <item itemvalue="Python tests.Unittests for exo04tests.IsStrongTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5981cf06-9c00-45d1-9741-07df3b31df34" name="Default Changelist" comment="" />
+      <created>1580888059533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580888059533</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580888132733">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580888132733" />
+    <state width="1419" height="288" key="GridCell.Tab.0.bottom" timestamp="1580902127790">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="288" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580902127790" />
+    <state width="1419" height="288" key="GridCell.Tab.0.center" timestamp="1580902127789">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="288" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580902127789" />
+    <state width="1419" height="288" key="GridCell.Tab.0.left" timestamp="1580902127788">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="288" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580902127788" />
+    <state width="1419" height="288" key="GridCell.Tab.0.right" timestamp="1580902127789">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="288" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580902127789" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1580902127783">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580902127783" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1580902127782">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580902127782" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1580902127782">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580902127782" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1580902127783">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580902127783" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1580888231779">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580888231779" />
+  </component>
+</project>

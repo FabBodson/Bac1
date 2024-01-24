@@ -1,0 +1,18 @@
+from collections import deque
+
+mafile = deque([17, 7, 23, 15, 12])
+print(mafile)
+print("je fais un push de 42")
+mafile.append(42)
+print(mafile)
+print("je fais un push de 74")
+mafile.append(74)
+print(mafile)
+monpop = mafile.popleft()
+print("je fais un pop et recois ", monpop)
+monpop = mafile.popleft()
+print("je fais un pop et recois ", monpop)
+print(mafile)
+monpop = mafile.popleft()
+print("je fais un pop et recois ", monpop)
+print(mafile)

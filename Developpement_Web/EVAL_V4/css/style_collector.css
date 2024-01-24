@@ -1,0 +1,1185 @@
+/*
+
+   STYLE POUR LES BALISES COMMUNES À TOUTES OU UNE MAJORITÉE DE PAGES.
+
+   Si une balise devait différer pour une page spécifique, sont style
+   se trouvera dans la partie dédiée à la page ou l'ensemble de page.
+   Dans cet ordre :
+
+    1) STYLE FORMULAIRES D'INSCRIPTION, DE CONNEXION ET DE CONTACT
+    2) STYLE ACCUEILS ANONYME ET MEMBRE
+    3) STYLE DETAIL PROJET
+    4) STYLE CATEGORIES
+    5) STYLE PROFIL
+    6) STYLE STATISTIQUES
+    7) MEDIA QUERIES
+
+*/
+
+
+
+
+
+header{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+h1#titreReferencement {
+  visibility: hidden;
+  margin: 0em;
+  font-size: 0em;
+}
+
+
+
+h1, h2.titrePage { /* Titres principaux de chaque pages */
+  font-size: 5em;
+  font-family: cursive;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2.titrePage {
+  text-decoration: underline;
+}
+
+
+h1 a, h2 a {
+  color: #FFC755; /* Jaune */
+}
+
+
+
+nav.navigation {
+  background-color: #FFC755; /* Jaune */
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 5.5em;
+  width: 95%;
+  margin: 0 2em 0.5em 2em;
+  border: 2px solid;
+}
+
+
+
+nav.navigation a {
+  color: black;
+}
+
+
+
+nav.navigation a:hover {
+  color: #EEEEEE; /* Blanc Cassé */
+}
+
+
+
+.elementCache {
+  visibility: hidden;
+  font-size: 1.1em;
+  margin: 2.5em 0 2em 5em;
+}
+
+
+
+
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  background-color: #242B2A; /* Couleur sombre du fond */
+  color: #FFC755; /* Couleur Jaune du texte */
+}
+
+
+
+p.messagePrincipal { /* Message affiché sur toutes les pages */
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+
+.filAriane {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+
+.filAriane a {
+  text-decoration: underline;
+}
+
+
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+
+
+
+label {
+  width: 120px;
+  padding-top: 1em;
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+
+
+
+a {
+  color: #EEEEEE; /* Blanc Cassé */
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  color: #FFC755; /* Jaune */
+}
+
+
+
+div.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content:space-around;
+  background-color: #696969; /* Couleur gris foncé footer */
+  font-size: 1.2em;
+}
+
+
+
+div.footer a {
+  text-decoration: underline;
+  color: #FFC755; /* Jaune */
+}
+
+
+
+/* Confirmations */
+
+form.formSuppression {
+  width:auto;
+  margin: 0;
+}
+
+form.confirmerSuppression {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+/*
+
+    1) STYLE FORMULAIRES D'INSCRIPTION, DE CONNEXION ET DE CONTACT
+
+*/
+
+
+
+
+
+
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 32em;
+  margin-right: 32em;
+}
+
+
+
+
+label.spam {
+  display: none;
+}
+
+
+
+fieldset {
+  background-color: #FFFAF4; /* Couleur blanc cassé */
+  color: black; /* Couleur Noire du texte */
+  margin-bottom: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: left;
+  border-radius: 20px;
+}
+
+
+
+p#renvoiInscription a {
+  text-decoration: underline;
+  color: #495CFF; /* Bleu */
+  width: 10em;
+}
+
+
+
+textarea{
+  margin-top: 0.5em;
+  width: 20em;
+  height: 10em;
+}
+
+
+
+label {
+  width: auto;
+}
+
+
+
+label::after{
+  content: " :";
+}
+
+
+
+label.radio::after {
+  content: "";
+}
+
+
+
+label.checkbox::after {
+  content: "";
+}
+
+span {
+  color: skyblue;
+}
+
+
+
+input[type=text], input[type=range], input[type=date], input[type=email], input[type=password], input[type=url], input[type=number], input[type=search], select {
+  width: 200px;
+  height: 1.5em;
+  margin-bottom: 5px;
+}
+
+
+
+input:required{
+  border-color: red;
+}
+
+
+
+.envoi, .connecter, .effacer {
+  background-color: #242B2A; /* Couleur sombre du fond */
+  color: #FFC755; /* Jaune */
+  width: 15em;
+  height: 5em;
+  margin-top: 3em;
+  border-radius: 15px;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+
+.plusDePaliers {
+  width: 10em;
+  height: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 30%;
+  font-size: 0.6em;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+    2) STYLE ACCUEILS ANONYME ET MEMBRE
+
+*/
+
+
+
+
+
+nav a.mesParticipations {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-size: 1.1em;
+  margin: 2em 2.5em 2em 2.5em;
+}
+
+
+
+nav.navProfil {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+li.versProfil {  /* Liste proposant d'aller vers le profil ou se deconnecter */
+  font-size: 1.1em;
+  display: block;
+  text-align: left;
+  position: relative;
+}
+
+
+
+
+ul.listeGererProfil {
+  display: none;
+}
+
+
+
+li:hover .listeGererProfil{
+  display: block;
+  color: white;
+  background-color: #242B2A; /* Couleur sombre du fond */
+  padding-left: 0.2em;
+  padding-bottom: 0.35em;
+  position: absolute;
+  top: 1.1em;
+  right: 0;
+  border-top: 2px solid #FFC755; /* Jaune */
+  border-bottom: 2px solid #FFC755; /* Jaune */
+  border-radius: 5px;
+  text-align: left;
+}
+
+
+
+li.elementListeProfil {
+  margin-top: 0.3em;
+}
+
+.deconnexion {
+  margin: 0;
+}
+
+
+#btnDeconnexion {
+  background-color: #242B2A; /* Couleur sombre du fond */
+  color: #FFFAF4; /* Couleur blanc cassé */
+  border: 0;
+  font-size: 0.95em;
+}
+
+
+.formRecherche {
+  display: block;
+  margin: 1.7em 1.5em 0 0;
+}
+
+input[type="text"].barreRecherche {
+  width: 50em;
+  height: 3em;
+}
+
+.boutonRecherche {
+  width: auto;
+  height: 3em;
+}
+
+
+
+section {
+  margin-top: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 95%;
+}
+
+
+
+h2 { /* Titre de mes sections d'articles */
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+
+
+article {
+  display: inline-flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 5px 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #EEEEEE; /* Couleur Blanc Cassé */
+  color: black;
+  width: 18rem;
+}
+
+
+article p.descriptionApercu {
+  margin-bottom: 1rem;
+  width: auto;
+  max-width: 17rem;
+  height: auto;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+
+article img {
+  display: flex;
+  margin: auto;
+  width: 135px;
+  height: 135px;
+}
+
+
+article h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+
+article ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  font-size: 1rem;
+  vertical-align: top;
+  width: auto;
+  max-width: 17rem;
+  margin: 0px;
+  padding-left: 20px;
+  min-height: 80px;
+  list-style-type: disc;
+}
+
+
+
+article li {
+  height: 2em;
+  width: auto;
+  max-width: 17rem;
+  margin-top: 0.5em;
+}
+
+
+
+footer.footerArticle {
+  text-align: center;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 1em;
+}
+
+
+
+footer a.details {
+  color: black;
+  text-decoration: underline;
+}
+
+
+a.details {
+  margin-top: 1.5em;
+  margin-left: 0.2em;
+  color: #242B2A; /* Couleur sombre du fond */
+  text-decoration: underline;
+}
+
+a.details:hover{
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+  STYLE DETAIL PROJETS
+
+*/
+
+
+
+
+
+h1.nomProjet { /* Message affiché comme nom des projets sur la page de detail */
+  font-size: 2.7em;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-bottom: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.boutonsDetailProjet{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.boutonValiderProjet{
+  height: 3.5em;
+  border-radius: 20%;
+}
+
+
+
+section.section1DetailProjet {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
+
+
+section.infoProjetA {
+  color: #242B2A; /* Couleur sombre du fond */
+  background-color: #EEEEEE; /* Couleur Blanc Cassé */
+  border: 2px solid;
+  border-color: white;
+  border-radius: 15px;
+  width: 75%;
+  padding-bottom: 3em;
+}
+
+
+
+img.imageProjetDetail {
+  display: flex;
+  margin: auto;
+  width: 15em;
+  height: 15em;
+}
+
+
+
+h2.presentationProjet {
+  margin-bottom: 0em;
+  margin-top: 1em;
+}
+
+
+
+section.infoProjetB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #242B2A; /* Couleur sombre du fond */
+  background-color: #EEEEEE; /* Couleur Blanc Cassé */
+  border: 2px solid;
+  border-color: white;
+  border-radius: 15px;
+  margin-left: 4em;
+  width: 25%;
+  padding-bottom: 3em;
+}
+
+
+
+p.descriptionProjet {
+  font-size: 1.2em;
+}
+
+
+
+a.lienParticiperProjet {
+  display: block;
+  color: #FFC755; /* Jaune */
+  background-color: #242B2A; /* Couleur sombre fond */
+  text-align: center;
+  font-size: 1.3em;
+  text-decoration: underline;
+  border: 2px solid;
+  border-radius: 15px;
+  width: auto;
+  margin: 3em 0em 1em 0em;
+  padding: 1em 0.3em 1em 0.3em;
+}
+
+
+
+.formAnnulerPart {
+  margin: 0;
+}
+
+
+a.lienCreerProjet {
+  display: block;
+  color: #FFC755; /* Jaune */
+  background-color: #242B2A; /* Couleur sombre fond */
+  text-align: center;
+  font-size: 1.3em;
+  text-decoration: underline;
+  border: 2px solid;
+  border-radius: 15px;
+  width: auto;
+  padding: 1em 0.3em 1em 0.3em;
+}
+
+
+
+
+
+/* Section 2 du detail */
+
+
+section.section2DetailProjet {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  margin-top: 3em;
+  border-top: 2px solid white;
+}
+
+
+
+                 /* NEWS */
+
+
+article.newsDetailProjet {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 70%;
+  color: #242B2A; /* Couleur sombre du fond */
+  background-color: #EEEEEE; /* Couleur Blanc Cassé */
+  border-radius: 15px;
+  font-size: 1.2em;
+  padding-bottom: 1.5em;
+}
+
+article.newsDetailProjet p {
+  width: 90%;
+  margin: 0.5em;
+}
+
+
+
+a.ajoutNews {
+  font-size: 1.2em;
+  margin-top: 1.5em;
+  color: #FFC755; /* Jaune */
+  text-decoration: underline;
+}
+
+
+.ajoutNews:hover{
+  font-size: 1.25em;
+}
+
+
+footer.footerNews {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 50%;
+  border-top: 2px solid #242B2A; /* Couleur sombre du fond */
+}
+
+
+
+.modiferNews {
+  font-size: 1.2em;
+  color: #242B2A; /* Couleur sombre du fond */
+  background-color: #EEEEEE; /* Couleur Blanc Cassé */
+  border: 0px;
+  text-decoration: underline;
+}
+
+.modiferNews:hover{
+  color: #242B2A; /* Couleur sombre du fond */
+  font-size: 1.25em;
+}
+
+
+
+.supprimerNews {
+  color: #242B2A; /* Couleur sombre du fond */
+  background-color: #EEEEEE; /* Couleur Blanc Cassé */
+  border: 0;
+  text-decoration: underline;
+  font-size: 1em;
+}
+
+
+
+
+
+
+section.section3DetailProjet {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-top: 2px solid white;
+}
+
+
+                 /* COMMENTAIRES */
+
+
+article.commentaireDetailProjet {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 30%;
+  background-color: #EEEEEE; /* Couleur Blanc Cassé */
+  color: #242B2A; /* Couleur sombre du fond */
+  border-radius: 15px;
+  text-align: left;
+  padding-left: 1em;
+}
+
+
+
+footer.footerCommentaire {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 30%;
+  border-top: 2px solid #242B2A; /* Couleur sombre du fond */
+}
+
+footer.footerCommentaire input, footer.footerCommentaire a {
+  color: #242B2A; /* Couleur sombre du fond */
+  background-color: #EEEEEE; /* Couleur Blanc Cassé */
+  border: 0;
+  text-decoration: underline;
+  font-size: 1em;
+}
+
+a.modiferComm {
+  margin-top: 1em;
+  margin-left: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+     4) STYLE CATEGORIES
+
+*/
+
+nav.navCategories {
+  width: 95%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+
+
+
+.categories {
+  padding-top: 0.3em;
+  margin: 0.5em 1.3em 0.5em 0;
+  font-size: 1.5em;
+  display: block;
+  width: 5em;
+  position: relative;
+  border-bottom: 2px solid #FFC755; /* Jaune */
+  border-radius: 5px;
+}
+
+
+
+.listeCategories {
+  display: none;
+}
+
+
+
+li:hover .listeCategories{
+  display: block;
+  background-color: #242B2A; /* Couleur sombre du fond */
+  position: absolute;
+  width: auto;
+  min-width: 6.5em;
+  top: 0;
+  left: 5em;
+  border: 2px solid #FFC755; /* Jaune */
+  border-radius: 5px;
+  text-align: left;
+}
+
+
+.listeFiltres{
+  display: none;
+}
+
+
+li:hover .listeFiltres{
+  display: block;
+  background-color: #242B2A; /* Couleur sombre du fond */
+  position: absolute;
+  width: 8em;
+  top: 0;
+  right: 5em;
+  border: 2px solid #FFC755; /* Jaune */
+  border-radius: 5px;
+  text-align: left;
+}
+
+.ajouter_categorie{
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+
+.formCategories {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*    STYLE PROFIL   */
+
+
+
+
+
+nav li.gererDeconnexion {  /* Lien pour se deconnecter */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+
+
+section#sectionGererProfil {  /* Section avec les éléments du profil */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+  margin: 1.5em 36em 0em 30em;
+  width: 100%;
+}
+
+
+
+article.coordonneesProfil {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: left;
+  width: 120%;
+  border-radius: 20px;
+  margin-bottom: 2em;
+}
+
+
+
+article.coordonneesProfil ul {
+  width: auto;
+}
+
+
+
+article.coordonneesProfil a {
+  color: #495CFF; /* Bleu */
+}
+
+
+
+article.coordonneesProfil a:hover {
+  color: #77ABD6; /* Couleur Bleu clair survol adresse mail */
+}
+
+
+
+article.coordonneesProfil img {
+  display: flex;
+  width: 135px;
+  height: 135px;
+  border-radius: 50px;
+}
+
+
+
+section.boutonGererProfil { /* Section pour les boutons modifier, supprimer, desactiver profil */
+  margin-bottom: 15px;
+  margin-right: 6em;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  border-style: none;
+}
+
+form.boutonsProfil {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+input.boutonModifProfil {
+  background-color: #242B2A; /* Couleur sombre fond */
+  color: #FFC755; /* Jaune */
+  font-size: 1em;
+  text-decoration: underline;
+  width: 10em;
+  height: 3.5em;
+  margin-top: 1em;
+  border-radius: 15px;
+  border-color: white;
+}
+
+
+
+a.lienModifProfil {
+  display: block;
+  background-color: #242B2A; /* Couleur sombre fond */
+  color: #FFC755; /* Jaune */
+  text-align: center;
+  font-size: 1em;
+  text-decoration: underline;
+  border: 2px solid white;
+  border-right-color: silver;
+  border-bottom-color: silver;
+  border-radius: 15px;
+  width: 10em;
+  margin-top: 1em;
+  padding-top: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE STATISTIQUES */
+
+p.statImportantes {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  text-align: center;
+  width: 8em;
+  height: 8em;
+  margin-left: 3em;
+  padding-top: 4em;
+  color: #242B2A; /* Couleur sombre fond */
+  background-color: #FFC755; /* Jaune */
+  border-radius: 50%;
+  font-size: 1.35em;
+}
+
+
+
+section.sectionStatistiques {
+  text-align: left;
+  width: 95%;
+  margin-right: 2em;
+}
+
+
+
+h2.titreSectionStat {
+  margin-top: 2em;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+
+
+
+ul.ulStatistiques {
+  color: #EEEEEE; /* Couleur Blanc Cassé */
+  list-style-type: disc;
+  margin-top: -1.5em;
+  font-size: 1.3em;
+}
+
+
+
+
+section.messagesParticipations {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  MEDIA QUERIES */
+
+
+@media print {
+  @page { size: auto;  margin: 10mm; }
+
+
+
+  body {
+    font-family: serif;
+    font-size: 12pt;
+    display: block;
+    color: black;
+  }
+
+
+
+  main {
+    display: block;
+    margin-top: 0;
+  }
+
+
+
+  header {
+    display: none;
+    background-image: none;
+    height: 50pt;
+  }
+
+
+
+  header h1 {
+    font-size: 2rem;
+    margin: auto;
+  }
+
+
+  nav.navigation, .navProfil, .navCategories, footer {
+      display: none;
+  }
+
+  section {
+    display: flex;
+  }
+
+
+  article {
+    display: flex;
+    flex-flow: row wrap;
+    page-break-inside: avoid;
+  }
+
+  article ul {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+
+  article img {
+    display: none;
+  }
+
+
+
+  article:nth-child(even) {
+    page-break-after: always;
+  }
+}
